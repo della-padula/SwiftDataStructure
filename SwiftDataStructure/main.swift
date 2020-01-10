@@ -8,5 +8,11 @@
 
 import Foundation
 
-print("Hello, World!")
+var myStack = Stack<Int>()
+
+for i in 1...5 {
+    myStack.push(element: i)
+}
+
+print(myStack)
 
