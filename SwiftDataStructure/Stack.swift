@@ -38,3 +38,18 @@ extension Stack: CustomStringConvertible {
         return "RESULT : " + self.elements.description
     }
 }
+
+extension Stack: ExpressibleByArrayLiteral {
+    public init(arrayLiteral elements: T...) {
+        self.init()
+        for element in elements {
+            self.elements.append(element)
+        }
+    }
+}
+ 
+extension Stack: Sequence {
+    public func makeIterator() -> ArrayIterator<T> {
+        return ArrayIterator<T>(elements: self.elements)
+    }
+}

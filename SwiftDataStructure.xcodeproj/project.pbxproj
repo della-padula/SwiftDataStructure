@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DED2D2F023DC1D6600318B89 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED2D2EF23DC1D6600318B89 /* main.swift */; };
 		DED2D2F723DC1DF600318B89 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED2D2F623DC1DF600318B89 /* Stack.swift */; };
+		DED2D2F923DC1E4600318B89 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED2D2F823DC1E4600318B89 /* Queue.swift */; };
+		DED2D2FB23DC1E8E00318B89 /* ArrayIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED2D2FA23DC1E8E00318B89 /* ArrayIterator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		DED2D2EC23DC1D6600318B89 /* SwiftDataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftDataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED2D2EF23DC1D6600318B89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DED2D2F623DC1DF600318B89 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		DED2D2F823DC1E4600318B89 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		DED2D2FA23DC1E8E00318B89 /* ArrayIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayIterator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				DED2D2EF23DC1D6600318B89 /* main.swift */,
 				DED2D2F623DC1DF600318B89 /* Stack.swift */,
+				DED2D2F823DC1E4600318B89 /* Queue.swift */,
+				DED2D2FA23DC1E8E00318B89 /* ArrayIterator.swift */,
 			);
 			path = SwiftDataStructure;
 			sourceTree = "<group>";
@@ -124,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DED2D2F723DC1DF600318B89 /* Stack.swift in Sources */,
+				DED2D2F923DC1E4600318B89 /* Queue.swift in Sources */,
 				DED2D2F023DC1D6600318B89 /* main.swift in Sources */,
+				DED2D2FB23DC1E8E00318B89 /* ArrayIterator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
