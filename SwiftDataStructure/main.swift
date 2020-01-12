@@ -9,10 +9,12 @@
 import Foundation
 
 var myStack = Stack<Int>()
+var myQueue = Queue<Int>()
 
 for i in 1...5 {
     myStack.push(element: i)
+    myQueue.enqueue(element: i)
 }
 
 print(myStack)
-
+print(myQueue)

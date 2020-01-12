@@ -35,7 +35,7 @@ public struct Stack<T> {
 
 extension Stack: CustomStringConvertible {
     public var description: String {
-        return "RESULT : " + self.elements.description
+        return "STACK : " + self.elements.description
     }
 }
 

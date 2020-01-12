@@ -11,6 +11,7 @@
 		DED2D2F723DC1DF600318B89 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED2D2F623DC1DF600318B89 /* Stack.swift */; };
 		DED2D2F923DC1E4600318B89 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED2D2F823DC1E4600318B89 /* Queue.swift */; };
 		DED2D2FB23DC1E8E00318B89 /* ArrayIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED2D2FA23DC1E8E00318B89 /* ArrayIterator.swift */; };
+		DED2D2FF23DC1F5D00318B89 /* QueueIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED2D2FE23DC1F5D00318B89 /* QueueIterator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		DED2D2F623DC1DF600318B89 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		DED2D2F823DC1E4600318B89 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		DED2D2FA23DC1E8E00318B89 /* ArrayIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayIterator.swift; sourceTree = "<group>"; };
+		DED2D2FE23DC1F5D00318B89 /* QueueIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueIterator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				DED2D2F623DC1DF600318B89 /* Stack.swift */,
 				DED2D2F823DC1E4600318B89 /* Queue.swift */,
 				DED2D2FA23DC1E8E00318B89 /* ArrayIterator.swift */,
+				DED2D2FE23DC1F5D00318B89 /* QueueIterator.swift */,
 			);
 			path = SwiftDataStructure;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			files = (
 				DED2D2F723DC1DF600318B89 /* Stack.swift in Sources */,
 				DED2D2F923DC1E4600318B89 /* Queue.swift in Sources */,
+				DED2D2FF23DC1F5D00318B89 /* QueueIterator.swift in Sources */,
 				DED2D2F023DC1D6600318B89 /* main.swift in Sources */,
 				DED2D2FB23DC1E8E00318B89 /* ArrayIterator.swift in Sources */,
 			);
